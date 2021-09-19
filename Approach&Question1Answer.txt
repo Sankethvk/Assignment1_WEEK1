@@ -1,0 +1,18 @@
+Question 1:
+Scenario Analysis 
+FlyHigh Airlines were facing problems of modern feature scarcity such as no aircraft maintenance feature and e-ticket booking facility.
+So, these features were added. The already existing bookTicket class which was private was used in e-ticket booking class, concept of 
+inheritance was used.Also Luggage class was added where it automatically generates a statement whether the permitted luggage weight is appropriate
+corresponding to appropriate flight class or else additional amount to be paid is displayed.Aircraft maintenance class provides brief information about
+flight maintenance and also provides its parking spot ID and serviceman of that particular flight.So all these classes are used to generate a final ticket 
+to the customer.
+
+So features of c# used to reuse the existing application code is INHERITANCE. So, data members and member variables of the class bookticket was used
+in e-ticket booking class.As the bookticket class had private variables , I have used concept of PROPERTY(getter,setter method) to access private variables.
+
+
+Define an interface,benifits of using interface:
+ANS : Interface is basically like an abstract class , as all the methods or functions declared in interface are abstract methods.Interface is public and abstract
+by default. So ,  it cannot have method body and also cannot be instantiated.The main purpose of using interface is to acheive multiple inheritance which cannot 
+be acheived by class.It's implementation must be provided through class or struct. The class or struct which implements the interface, must provide the implementation 
+of all the methods declared inside the interface or else there will be an error.
